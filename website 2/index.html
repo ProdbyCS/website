@@ -96,6 +96,22 @@ margin: 0;
 opacity: 1;
 transition: 0s
 }
+
+.align{
+align-items: center;
+}
+.search-bar{
+  width: 300px;
+  height: 30px;
+  font-size: 18px;
+}
+
+.srch-btn{
+  width: 75px;
+  height: 36px;
+  font-size: 18px;
+}
+
 #footer {
             position: fixed;
             padding: 10px 10px 0px 10px;
@@ -116,37 +132,48 @@ transition: 0s
                 background-color: #000000;
                 border: none;
             }
-    </style>
-      <div class="center">
-        <img src="Klick.png" alt="Our logo, Klick">
-      </div>
-      <a href="signup.html">
-        <button>Log-in/Sign-up</button>
-      </a>
 
-    <div class="center">
-      <span>
-        <a href="index.html">
-          <button class="button" class="center">Home </button>
-        </a>
-        <a href="Buying.html">
-          <button class="button-on" class="center">Buying </button>
-        </a>
-        <a href="Selling.html">
-          <button class="button" class="center">Selling </button>
-        </a>
-        <a href="Orders.html">
-          <button class="button" class="center">Orders </button>
-        </a>
-        <a href="Help.html">
-          <button class="button" class="center">Help</button>
-        </a>
-      </span>
-    </div>
+
+
+    </style>
+    <header>
+        <div class="center">
+          <img src="Klick.png" alt="Our logo, Klick">
+        </div>
+        <span>
+          <a href="signup.html">
+            <button>Log-in/Sign-up</button>
+          </a>
+        </span>
+      <div class="center">
+        <span>
+          <a href="index.html">
+            <button class="button-on" class="center">Home </button>
+          </a>
+          <a href="Buying.html">
+            <button class="button" class="center">Buying </button>
+          </a>
+          <a href="Selling.html">
+            <button class="button" class="center">Selling </button>
+          </a>
+          <a href="Orders.html">
+            <button class="button" class="center">Orders </button>
+          </a>
+          <a href="Help.html">
+            <button class="button" class="center">Help</button>
+          </a>
+        </span>
+      </div>
+  </header>
 <hr>
-    <div class="center">
-    <h3 class="open-sans-header"><b>Search through our long list of products</b></h3>
-    </div>
+    <main>
+      <div class="center">
+        <form>
+          <input class="search-bar" type="text" placeholder=" Search...." name="search">
+          <button class="srch-btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
     <footer>
       <div id="footer">© Klick Copyright Reserved
 <hr class="hr">
@@ -158,6 +185,7 @@ transition: 0s
       </div>
 
     </footer>
+
 
   </body>
 </html>
